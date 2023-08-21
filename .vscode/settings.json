@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "heroes",
+      "database": "${workspaceFolder:tour_of_heroes_api}/db/development.sqlite3"
+    }
+  ]
+}
