@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -46,3 +48,5 @@ group :development do
   # gem "spring"
   gem 'faker', '~> 3.2'
 end
+
+gem 'active_model_serializers', '~> 0.10.13'
