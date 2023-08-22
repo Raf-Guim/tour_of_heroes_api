@@ -25,7 +25,7 @@ module Api
       @hero = Hero.new(hero_params)
 
       if @hero.save
-        render json: @hero, status: :created, location: @hero
+        render json: @hero, status: :created, location: api_hero_url(@hero)
       else
         render json: @hero.errors, status: :unprocessable_entity
       end
